@@ -1,0 +1,1 @@
+select BillingCountry, count(*) as "Number Of Invoices" from Invoice group by BillingCountry;

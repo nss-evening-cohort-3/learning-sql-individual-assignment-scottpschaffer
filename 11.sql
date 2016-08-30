@@ -1,0 +1,1 @@
+select InvoiceId, count(*) as InvoiceCount from InvoiceLine group by InvoiceId;
